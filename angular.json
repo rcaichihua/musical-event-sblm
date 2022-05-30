@@ -125,9 +125,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "musical-event-sblm"
+  "defaultProject": "musical-event-sblm",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
