@@ -11,7 +11,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 		console.log('-constructor---');
 		this.title = 'MitoCode';
 	}
-  	ngOnInit(): void {
+	ngOnInit(): void {
 		console.log('---ngOnInit---');
 	}
 

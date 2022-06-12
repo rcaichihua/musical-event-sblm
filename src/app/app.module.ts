@@ -38,7 +38,7 @@ import { ContainerModule } from './commons/components/container/container.module
 		CardEventComponent,
 		CardMenusComponent
 	],
-	imports: [BrowserModule, BrowserAnimationsModule,MatButtonModule,ContainerModule],
+	imports: [BrowserModule, BrowserAnimationsModule, MatButtonModule, ContainerModule],
 	providers: [],
 	bootstrap: [AppComponent]
 })
